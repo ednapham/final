@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THUONG'S PIZZA</title>
+    <style>
+body{font-family: 'Noto Sans', 'Arial', 'Tahoma';}
+         header{ 
+            
+        background-color: #FFE4C4;
+        color: #FFE4C4;
+        text-align:center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(https://thumbs.dreamstime.com/z/pizza-hand-drawn-doodle-banner-cartoon-detailed-flyer-pizza-hand-drawn-doodle-banner-cartoon-detailed-flyer-pizzeria-identity-164722354.jpg);
+        background-size: 100% 300px;
+        padding:3px;
+        ;}
+
+.banner{
+        text-align: right;
+        padding-right: 9.6em;}
+
+        .h {    overflow: hidden;
+        background-color:#ff6b6b;
+;
+}
+      
+.h a {  float: left;
+        display: block;
+        color: #343a40;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+.h a:hover {
+        background-color: #555;
+        color: rgb(255, 253, 253);
+        border-radius:20px;
+      }
+
+footer{
+        background-color:#ff6b6b;
+        color:#343a40;
+        text-align:center;
+        font-size: .80em;
+        font-style: italic;
+        padding:25px;}
+        img {
+        max-width: 100%;
+      }
+
+
+      .right-column {
+        
+    padding-right: 30em;
+    float: right;}
+    .address{  padding-left: 1em;
+  padding-right: 2em;
+  font-style: italic;
+}
+</style>
+</head> 
+<body >
+
+
+<div >
+    <header>
+    
+        <h1 CLASS="banner" >TAKE OUT</h1>
+        
+    </header>
+    <nav class="h">
+      <a href="../index.html">WELCOME</a>
+      <a href="../html/aboutus.html">ABOUT US</a>
+      <a href="../html/takeout.html">TAKE OUT</a>
+  </nav>
+</div>
+
+<p>Welcome to our online pizza ordering system! Please select the pizzas you would like to order from the menu below:</p>
+<div class="right-column">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/T3AHBe0I0yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="left-column">
+  <form >
+    <h2>Menu</h2>
+    <h3>Meals</h3>
+    <ul>
+      <li>
+        <input type="checkbox" name="pizzas[]" value="Salad"> Salad
+
+      </li>
+      <p>Price: $12</p>
+      <li>
+        <input type="checkbox" name="pizzas[]" value="Croast Beef"> Croast Beef
+      </li>
+      <p>Price: $14</p>
+      <li>
+        <input type="checkbox" name="pizzas[]" value="Greasty Pasta"> Greasty Pasta
+      </li>
+      <p>Price: $13</p>
+    </ul>
+    <H3> Pizza</H3>
+    <div >
+      <label for="Size">What size pizza would you like? Use the slider below to change pizza sizes. <span class="star">*</span></label>
+      <div >
+          <input type="radio" name="size"><span>Small- 12inch</span>
+          <p>Price: $7.21</p>
+          <input type="radio" name="size"><span>Medium-14inch</span>
+          <p>Price: $9.21</p>
+          <input type="radio" name="size"><span>Large-16inch</span>
+          <p>Price: $12.21</p>
+      </div>
+      <ul>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Pepperoni Classical Pizza"> Pepperoni Classical Pizza
+        </li>
+        <p style="margin-right: 28%;">  
+          <select name="Course" style="width:auto" id="number" required>
+            <option value="--select--" align="center" selected>---- Select ----</option>
+            <option value="1">x1</option>
+            <option value="2">x2</option>
+            <option value="3">x3</option>
+            <option value="4">x4</option>
+          </select>
+      </p>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Eggplant Parmesan Pizza"> Eggplant Parmesan Pizza
+        </li>
+        <p style="margin-right: 28%;">  
+          <select name="Course" style="width:auto" id="number" required>
+            <option value="--select--" align="center" selected>---- Select ----</option>
+            <option value="1">x1</option>
+            <option value="2">x2</option>
+            <option value="3">x3</option>
+            <option value="4">x4</option>
+          </select>
+      </p>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="BBQ Chicken Pizza"> BBQ Chicken Pizza
+        </li>
+        <p style="margin-right: 28%;">  
+          <select name="Course" style="width:auto" id="number" required>
+            <option value="--select--" align="center" selected>---- Select ----</option>
+            <option value="1">x1</option>
+            <option value="2">x2</option>
+            <option value="3">x3</option>
+            <option value="4">x4</option>
+          </select>
+      </p>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Other"> Design My Own Style
+        </li>
+         
+      </ul>
+      </div>
+      
+    
+      <h2>Pizza toppings for your style</h2>
+      <ul>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Pepperoni"> Pepperoni
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Mushrooms"> Mushrooms
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Onions"> Onions
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Sausage"> Sausage
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Extra cheese"> Extra cheese
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Black olives"> Black olives
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Black olives"> Black olives
+        </li>
+        <li>
+          <input type="checkbox" name="pizzas[]" value="Pineapple"> Pineapple
+        </li>
+        <div class="set">
+          <label for="Other"> Other  </label>
+          <input type="text">
+      </div>
+      </ul>
+    <h2>Delivery Information</h2>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+    </p>
+    <p>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+    </p>
+    <p>
+      <label for="Note">Note:</label>
+      <input type="text" id="note" name="note">
+    </p>
+
+    <p>
+      <input type="submit" value="Place Order">
+    </p>
+    
+  </form>
+  <div class="address">
+    <p>
+        4 ButtonWood Street<br />Boston, MA 02125<br /><a
+          id="mobile"
+          href="tel:888-555-5555"
+          >888-555-5555</a
+        >
+      </p>
+      </div>
+
+<footer>
+    Copyright &copy; 2022<br>
+        <a href="thuong.pham01@bhcc.edu">thuong.pham01@bhcc.edu</a>
+</footer>
+</body>
+</html>
